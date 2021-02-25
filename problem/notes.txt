@@ -1,0 +1,89 @@
+Constraints
+- There will never two streets connecting two intersections in the same direction.
+- There is a trafic light one at every end of the street
+- Each car starts at the same time at the end of the street.
+
+
+
+Graph
+- streets => edges
+- Intersection => vortex
+
+OPP 
+Car as a Class:
+ total_time-> waiting + running_time
+
+- First is finding the actual path to travel.
+  Car path can be an array. [1,2,3,4]
+  BFS or DFS to find the path.
+
+- Next step is optimizing traffic light.
+
+# At a given time,
+ = we find the car with shortest distance to destination.
+ 
+
+
+# finding Intersection in paths of the car?
+    maybe
+
+# Two cars can't travel at the same time
+
+# Each car travels at a rate of L second
+    L is the time to go from the start of street to end of the street.
+    
+ 
+
+ # Priorioy Queue with BFS:
+   50/50 
+    - number of streets, 2,4
+    car:x => 2 streets(length of the streets L[]) : 5
+    car:y => 2 streets()              : 6
+    
+    Car c:
+    Car d
+    
+    D = 15
+
+    
+    [1,2,3,4]
+        1       2       3       4
+    2  3  4
+
+    x,y,    z
+    (1,1,)  2
+    car:x => 2 streets(length of the streets L[]) : 11
+    car:y => 2 streets() :10
+
+    car:z=> 2 streets :10
+
+
+    I1               I2
+    REd              Green
+
+    Q
+    c d are in same street.
+    if c is farther.
+    d >>>>  c
+    +1
+    
+    Red: R
+    Green : G
+      >>>>>T_____
+      >>>>>R
+
+    when two cars will affect eachother?
+
+
+
+	Simulation:
+	Start at D and with every simulation step decrease by 1
+
+
+    ## Naive solution
+    - Brute force solution 
+        try all possible combintation to 
+
+
+    what if the two cars have the same priorioy?
+        first priorioy: less number of strests

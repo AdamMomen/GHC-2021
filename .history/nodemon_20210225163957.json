@@ -1,0 +1,6 @@
+{
+    "ignore": [".env", ".history"],
+    "execMap": {
+        "python": ".env/bin/python3.8"
+    }
+}

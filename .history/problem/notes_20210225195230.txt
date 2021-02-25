@@ -1,0 +1,17 @@
+Constraints
+- There will never two streets connecting two intersections in the same direction.
+- There is a trafic light one at every end of the street
+- Each car starts at the same time at the end of the street.
+
+
+
+Graph
+- streets => edges
+- Intersection => vortex
+
+OPP 
+Car as a Class:
+ total_time-> waiting + running_time
+
+
+ 

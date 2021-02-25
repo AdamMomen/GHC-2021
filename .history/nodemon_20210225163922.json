@@ -1,0 +1,7 @@
+{
+
+    "ignore": [""]
+    "execMap": {
+        "python": ".env/bin/python3.8"
+    }
+}

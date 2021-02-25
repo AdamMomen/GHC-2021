@@ -1,0 +1,7 @@
+Notes
+- There will never two streets connecting two intersections in the same direction.
+- There is a trafic light one at every end of the street
+
+# Graph
+- streets => edges
+- Intersection => vortex

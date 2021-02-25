@@ -1,0 +1,2 @@
+Notes
+- There will never two streets connecting two intersections in the same direction.
